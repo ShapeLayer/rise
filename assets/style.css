@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*기본 색상*/
+:root {  
+    --main-color:#9BB4DE;
+    --accent-color:#3A5B91;
+    --dark-color:#253B5E;
+    --text-bright-color:#fff;
+}
+
+/* 기본 설정: 페이지 전체 */
+body { 
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*메인: 히어로 이미지*/
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    min-height: 450px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(img/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    color: var(--text-bright-color);
+    text-align: center;
+}
+
+/*메인 블록 로고 이미지*/
+.main img {
+    width: 20%;
+}
+
+/*메인 제목 설정*/
+.main h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    margin-left: 0.3em;
+}
+
+
+/*메인 부제목 설정*/
+.container { 
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.reference{
+    font-size: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+/*버튼 디자인*/
+.main a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: solid 3px currentColor;
+    border-radius: 3px;
+    background-color: #7183a4;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    color: var(--text-bright-color);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*커서를 올릴시 버튼 디자인*/
+.main a:hover {
+    background-image: linear-gradient(
+        rgba(255,255,255,0.2),
+        rgba(255,255,255,0.2)
+    );
+}
