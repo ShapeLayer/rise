@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*기본 색상*/
+/* Basic Color */
 :root {  
     --main-color:#9BB4DE;
     --accent-color:#3A5B91;
@@ -8,13 +8,13 @@
     --text-bright-color:#fff;
 }
 
-/* 기본 설정: 페이지 전체 */
+/* Default: body */
 body { 
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-/*메인: 히어로 이미지*/
+/* Main: Hero*/
 .main {
     display: flex;
     align-items: center;
@@ -29,12 +29,7 @@ body {
     text-align: center;
 }
 
-/*메인 블록 로고 이미지*/
-.main img {
-    width: 20%;
-}
-
-/*메인 제목 설정*/
+/* Main: Title */
 .main h1 {
     margin-top: 0;
     margin-bottom: 10px;
@@ -45,7 +40,7 @@ body {
 }
 
 
-/*메인 부제목 설정*/
+/* Main: SubTitle */
 .container { 
     margin-top: 0;
     margin-bottom: 0;
@@ -56,27 +51,4 @@ body {
     font-size: 20px;
     text-align: right;
     margin-right: 10px;
-}
-
-/*버튼 디자인*/
-.main a {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 10px 30px;
-    border: solid 3px currentColor;
-    border-radius: 3px;
-    background-color: #7183a4;
-    background-color: var(--accent-color);
-    color: #ffffff;
-    color: var(--text-bright-color);
-    font-size: 14px;
-    text-decoration: none;
-}
-
-/*커서를 올릴시 버튼 디자인*/
-.main a:hover {
-    background-image: linear-gradient(
-        rgba(255,255,255,0.2),
-        rgba(255,255,255,0.2)
-    );
 }
