@@ -1,4 +1,10 @@
 contents = {
+    "D300" : [
+        {
+            "content" : "새로운 시작.",
+            "original" : "Windows XP K/KN"
+        },
+    ],
     "D100" : [
         {
             "content" : "잘했고, 잘할거야.",
@@ -37,6 +43,10 @@ contents = {
         {
             "content" : "지금이야, 하늘로 비상할 시간.",
             "original" : "RISE"
+        },
+        {
+            "content" : "여기까지 왔어, 돌아서지 마.",
+            "original" : "Imagine Dragons - Warriors"
         }
     ]
 }
