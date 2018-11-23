@@ -17,6 +17,8 @@ body {
 /* Main: Hero*/
 .main {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -45,10 +47,23 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 24px;
+    
 }
 
-.reference{
+.reference {
     font-size: 20px;
     text-align: right;
     margin-right: 10px;
+}
+
+.input {
+    width: 30vw;
+    height: 2.5vh;
+    padding: 10px;
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 15px;
+    border-color: rgba(256, 256, 256, 0.8);
+    color: #ffff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
 }
