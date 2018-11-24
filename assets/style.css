@@ -229,6 +229,7 @@ select::-ms-expand {
     border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
+    pointer-events: none;
 }
 @media (min-width: 768px) {
     .support-overlay {
@@ -258,6 +259,7 @@ select::-ms-expand {
     font-style: normal;
 }
 .support-content:hover~.support-overlay {
+    pointer-events: auto;
     opacity: 1;
     transition: .5s ease;
 }
