@@ -115,10 +115,10 @@ a {
     transition: .5s ease;
 }
 
-.support {
+.support, .support-content {
     font-style: normal;
 }
-.support:hover .support-overlay {
+.support-content:hover~.support-overlay {
     opacity: 1;
     transition: .5s ease;
 }
