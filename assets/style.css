@@ -56,7 +56,10 @@ body {
     margin-right: 10px;
 }
 
-.input {
+.search-container{
+    margin-top: 30px;
+}
+.search .input {
     width: 30vw;
     height: 2.5vh;
     padding: 10px;
@@ -66,4 +69,18 @@ body {
     color: #ffff;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
+}
+
+.site-link ul {
+    list-style: none;
+}
+.site-link li { 
+    display: inline-block;
+
+}
+.site-link .desktop {
+    display: none;
+}
+.site-link .phone {
+    display: none;
 }
