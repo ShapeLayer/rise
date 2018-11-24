@@ -108,6 +108,7 @@ a {
     height: 15vh;
     position: absolute;
     top: -15vh;
+    left: 10vh;
     background-color: #000;
     padding: 10px;
     border-radius: 10px;
