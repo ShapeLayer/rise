@@ -81,6 +81,9 @@ body {
 .site-link .desktop {
     display: none;
 }
+.site-link .desktop .google {
+
+}
 .site-link .phone {
     display: none;
 }
