@@ -36,13 +36,10 @@ a {
 /* ===== */
 
 /* Contents */
-.main h1 {
+.comment {
     margin-top: 0;
     margin-bottom: 10px;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 2em;
-    letter-spacing: 0.3em;
-    margin-left: 0.3em;
 }
 .container { 
     margin-top: 0;
@@ -50,15 +47,39 @@ a {
     font-size: 24px;
     
 }
-.reference {
-    font-size: 20px;
-    text-align: right;
-    margin-right: 10px;
+@media (min-width: 768px) {
+    .comment {
+        font-size: 2em;
+        letter-spacing: 0.3em;
+        margin-left: 0.3em;
+    }
+    .reference {
+        font-size: 20px;
+        text-align: right;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    p {
+        font-size: 16px;
+    }
+    .comment {
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        margin-left: 0.1em;
+    }
+    .reference {
+        font-size: 15px;
+        text-align: right;
+        margin-right: 20px;
+    }
 }
 /* ===== */
 
 /* Search */
 .search-container{
+    position: relative;
+    display: inline-block;
     margin-top: 30px;
 }
 .search .input {
@@ -72,34 +93,120 @@ a {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
     transition: .5s ease;
+    position: relative;
+}
+.search select {
+    position: absolute;
+    width: 7vh;
+    height: 7vh;
+    padding: 0;
+    border: 0;
+    top: 0;
+    left: 0;
+    font-size: 2em;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-stretch: expanded;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #fff;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+select::-ms-expand {
+    display: none;
 }
 .search .input:hover, .search .input:focus {
     border-color: rgba(256, 256, 256, 1);
     background-color: rgba(256, 256, 256, 0.4);
-    color: rgb(75, 75, 75);
+    color: rgb(30, 30, 30);
     transition: .5s ease;
 }
 .search .input:hover::placeholder, .search .input:focus::placeholder {
-    color: rgb(75, 75, 75);
+    color: rgb(30, 30, 30);
+}
+@media (max-width: 768px) {
+    .search .input:hover, .search .input:focus {
+        width: 70vw;
+        transition: .5s ease;
+    }
 }
 /* ===== */
 
 /* Site List */
 .site-link ul {
+    margin-top: 30px;
     list-style: none;
+    padding: 0;
 }
 .site-link li { 
     display: inline-block;
 
 }
-.site-link .desktop {
-    display: none;
+@media (min-width: 768px) {
+    .site-link .desktop li {
+        position: relative;
+        width: 10vh;
+        height: 10vh;
+        border-radius: 50%;
+        background-color: #fff;
+        margin: 0.5em;
+        background-size: cover;
+        background-position: center center;
+        cursor: pointer;
+    }
+    .google {
+        background: url("img/google.png");
+    }
+    .naver {
+        background: url("img/naver.png");
+    }
+    .ebsi {
+        background: url("img/ebsi.png");
+    }
+    .daesung {
+        background: url("img/daesung.png");
+    }
+    .megastudy {
+        background: url("img/megastudy.png");
+    }
+    .skyedu {
+        background: url("img/skyedu.png");
+    }
+    .etoos {
+        background: url("img/etoos.png");
+    }
+    .site-link .desktop span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding-top: 3.5vh;
+    }
+    .site-link .desktop span:hover {
+        opacity: 1;
+        transition: .5s ease;
+    }
+    .site-link .phone {
+        display: none;
+    }
 }
-.site-link .desktop .google {
-
-}
-.site-link .phone {
-    display: none;
+@media (max-width: 768px) {
+    .site-link .desktop {
+        display: none;
+    }
+    .site-link .phone {
+        display: none;
+    }
 }
 /* ===== */
 
@@ -109,6 +216,7 @@ a {
     bottom: 20px;
 }
 .footer ul {
+    padding: 0;
     list-style: none;
 }
 .footer li {
@@ -132,12 +240,18 @@ a {
     }
 }
 @media (max-width: 768px) {
+    .footer {
+        font-size: 15px;
+    }
+    .footer ul {
+        margin: 10px;
+    }
     .support-overlay {
         position: fixed;
         width: 90vw;
         height: 20vh;
-        top: 70vh;
-        left: 5vw;
+        top: 1vh;
+        left: 2.5vw;
     }
 }
 .support, .support-content {
