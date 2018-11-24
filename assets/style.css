@@ -250,7 +250,7 @@ select::-ms-expand {
     .support-overlay {
         position: fixed;
         width: 90vw;
-        height: 20vh;
+        height: 17vh;
         top: 1vh;
         left: 2.5vw;
     }
