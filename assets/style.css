@@ -13,6 +13,10 @@ body {
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* Main: Hero*/
 .main {
@@ -86,4 +90,35 @@ body {
 }
 .site-link .phone {
     display: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+}
+.footer ul {
+    list-style: none;
+}
+.footer li {
+    display: inline-block;
+}
+
+.support-overlay {
+    width: 30vw;
+    height: 15vh;
+    position: absolute;
+    top: -15vh;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.support {
+    font-style: normal;
+}
+.support:hover .support-overlay {
+    opacity: 1;
+    transition: .5s ease;
 }
