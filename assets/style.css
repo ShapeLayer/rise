@@ -255,6 +255,10 @@ select::-ms-expand {
         left: 2.5vw;
     }
 }
+.adsbygoogle{
+    width: 320px;
+    height: 100px;
+}
 .support, .support-content {
     font-style: normal;
 }
