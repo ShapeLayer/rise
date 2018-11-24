@@ -1,14 +1,12 @@
 @charset "UTF-8";
 
-/* Basic Color */
+/* HTML Tags */
 :root {  
     --main-color:#9BB4DE;
     --accent-color:#3A5B91;
     --dark-color:#253B5E;
     --text-bright-color:#fff;
 }
-
-/* Default: body */
 body { 
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif;
@@ -17,8 +15,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+/* ===== */
 
-/* Main: Hero*/
+/* Main Page*/
 .main {
     display: flex;
     flex-direction: column;
@@ -34,8 +33,9 @@ a {
     color: var(--text-bright-color);
     text-align: center;
 }
+/* ===== */
 
-/* Main: Title */
+/* Contents */
 .main h1 {
     margin-top: 0;
     margin-bottom: 10px;
@@ -44,22 +44,20 @@ a {
     letter-spacing: 0.3em;
     margin-left: 0.3em;
 }
-
-
-/* Main: SubTitle */
 .container { 
     margin-top: 0;
     margin-bottom: 0;
     font-size: 24px;
     
 }
-
 .reference {
     font-size: 20px;
     text-align: right;
     margin-right: 10px;
 }
+/* ===== */
 
+/* Search */
 .search-container{
     margin-top: 30px;
 }
@@ -70,11 +68,23 @@ a {
     background-color: rgba(256, 256, 256, 0.2);
     border-radius: 15px;
     border-color: rgba(256, 256, 256, 0.8);
-    color: #ffff;
+    color: #fff;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
+    transition: .5s ease;
 }
+.search .input:hover, .search .input:focus {
+    border-color: rgba(256, 256, 256, 1);
+    background-color: rgba(256, 256, 256, 0.4);
+    color: rgb(75, 75, 75);
+    transition: .5s ease;
+}
+.search .input:hover::placeholder, .search .input:focus::placeholder {
+    color: rgb(75, 75, 75);
+}
+/* ===== */
 
+/* Site List */
 .site-link ul {
     list-style: none;
 }
@@ -91,7 +101,9 @@ a {
 .site-link .phone {
     display: none;
 }
+/* ===== */
 
+/* Footer */
 .footer {
     position: absolute;
     bottom: 20px;
@@ -104,18 +116,30 @@ a {
 }
 
 .support-overlay {
-    width: 30vw;
-    height: 15vh;
-    position: absolute;
-    top: -15vh;
-    left: 10vh;
     background-color: #000;
     padding: 10px;
     border-radius: 10px;
     opacity: 0;
     transition: .5s ease;
 }
-
+@media (min-width: 768px) {
+    .support-overlay {
+        position: absolute;
+        width: 30vw;
+        height: 15vh;
+        top: -15vh;
+        left: 10vh;
+    }
+}
+@media (max-width: 768px) {
+    .support-overlay {
+        position: fixed;
+        width: 90vw;
+        height: 20vh;
+        top: 70vh;
+        left: 5vw;
+    }
+}
 .support, .support-content {
     font-style: normal;
 }
@@ -123,3 +147,4 @@ a {
     opacity: 1;
     transition: .5s ease;
 }
+/* ===== */
