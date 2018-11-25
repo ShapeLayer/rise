@@ -23,20 +23,20 @@
             <input type="text" class="search input" placeholder="Search..." id="query" name="q">
             <div class="select-provider" onclick="displayOverlay()">
                 <div id="provider-reveal" class="icon"><div class="icon icon-google"></div></div>
-                <div class="dropdown-overlay" id="dropdown-overlay" style="display: none;">
-                    <label class="dropdown-object" onClick="checkRadioBtn()">
-                        <div class="icon dropdown-icon icon-google"></div>Google
-                        <input type="radio" checked="checked" name="provider" id="google" value="google">
-                        <span class="dropdown-radio"></span>
-                    </label>
-                    <label class="dropdown-object" onClick="checkRadioBtn()">
-                            <div class="icon dropdown-icon icon-naver"></div>NAVER
-                            <input type="radio" name="provider" id="naver" value="naver">
-                            <span class="dropdown-radio"></span>
-                    </label>
-                </div>
             </div>
         </form>
+        <div class="dropdown-overlay" id="dropdown-overlay" style="opacity: 0;">
+            <label class="dropdown-object" onClick="checkRadioBtn()">
+                <div class="icon dropdown-icon icon-google"></div>Google
+                <input type="radio" checked="checked" name="provider" id="google" value="google">
+                <span class="dropdown-radio"></span>
+            </label>
+            <label class="dropdown-object" onClick="checkRadioBtn()">
+                    <div class="icon dropdown-icon icon-naver"></div>NAVER
+                    <input type="radio" name="provider" id="naver" value="naver">
+                    <span class="dropdown-radio"></span>
+            </label>
+        </div>
     </div>
     <div class="site-link">
         <ul class="desktop">

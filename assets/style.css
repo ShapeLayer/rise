@@ -89,7 +89,7 @@ a {
     width: 30vw;
     height: 2.5vh;
     padding: 20px;
-    padding-left: 60px;
+    padding-left: 70px;
     background-color: rgba(256, 256, 256, 0.2);
     border-radius: 15px;
     border-color: rgba(256, 256, 256, 0);
@@ -107,6 +107,13 @@ a {
     height: 2.5vh;
     margin: 2px;
     padding: 20px;
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 13px;
+    transition: .5s ease;
+}
+.select-provider:hover {
+    background-color: rgba(256, 256, 256, 0.5);
+    transition: .5s ease;
 }
 .search .input:hover, .search .input:focus {
     border-color: rgba(256, 256, 256, 1);
@@ -137,6 +144,8 @@ a {
     border-radius: 5px;
     border-width: 1px;
     z-index: 5;
+    transition: .5s ease;
+    top: -55px;
 }
 .dropdown-object {
     display: inline-block;
