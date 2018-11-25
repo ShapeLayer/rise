@@ -142,11 +142,10 @@ select::-ms-expand {
     list-style: none;
     padding: 0;
 }
-.site-link li { 
-    display: inline-block;
-
-}
 @media (min-width: 768px) {
+    .site-link li { 
+        display: inline-block;
+    }    
     .site-link .desktop li {
         position: relative;
         width: 10vh;
@@ -158,25 +157,25 @@ select::-ms-expand {
         background-position: center center;
         cursor: pointer;
     }
-    .google {
+    .desktop .google {
         background: url("img/google.png");
     }
-    .naver {
+    .desktop .naver {
         background: url("img/naver.png");
     }
-    .ebsi {
+    .desktop .ebsi {
         background: url("img/ebsi.png");
     }
-    .daesung {
+    .desktop .daesung {
         background: url("img/daesung.png");
     }
-    .megastudy {
+    .desktop .megastudy {
         background: url("img/megastudy.png");
     }
-    .skyedu {
+    .desktop .skyedu {
         background: url("img/skyedu.png");
     }
-    .etoos {
+    .desktop .etoos {
         background: url("img/etoos.png");
     }
     .site-link .desktop span {
@@ -201,11 +200,18 @@ select::-ms-expand {
     }
 }
 @media (max-width: 768px) {
+    .site-link li { 
+        display: block;
+        font-size: 15px;
+    }    
     .site-link .desktop {
         display: none;
     }
-    .site-link .phone {
-        display: none;
+    .link-icon {
+        width: 13px;
+        height: 13px;
+        margin: 0;
+        margin-right: 4px;
     }
 }
 /* ===== */
