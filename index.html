@@ -19,9 +19,23 @@
         <p id="sat_count" class="counter">수능 카운터 불러오는중</p>
     </div>
     <div class="search search-container">
-        <form action="" method="GET">
-            <input type="text" class="search input" placeholder="Search...">
-            <!--<select name="" id="provider"><option value="google">G</option><option value="naver">N</option></select>-->
+        <form action="https://www.google.com/search" method="GET" id="search-provider">
+            <input type="text" class="search input" placeholder="Search..." id="query" name="q">
+            <div class="select-provider" onclick="displayOverlay()">
+                <div id="provider-reveal" class="icon"><div class="icon icon-google"></div></div>
+                <div class="dropdown-overlay" id="dropdown-overlay" style="display: none;">
+                    <label class="dropdown-object" onClick="checkRadioBtn()">
+                        <div class="icon dropdown-icon icon-google"></div>Google
+                        <input type="radio" checked="checked" name="provider" id="google" value="google">
+                        <span class="dropdown-radio"></span>
+                    </label>
+                    <label class="dropdown-object" onClick="checkRadioBtn()">
+                            <div class="icon dropdown-icon icon-naver"></div>NAVER
+                            <input type="radio" name="provider" id="naver" value="naver">
+                            <span class="dropdown-radio"></span>
+                    </label>
+                </div>
+            </div>
         </form>
     </div>
     <div class="site-link">
@@ -51,7 +65,7 @@
             <li>
                 <i class="support">
                     <i class="support-content"><b>여기를 통해 개발자 돕기</b></i>
-                    <div class="support-overlay"><!--#3 (4)-->
+                    <div class="support-overlay">
                         <p><b>이게 무엇인가요?</b> 이것은 구글 애드센스 서비스를 통한 광고입니다. 광고 뷰는 개발자에게 약간의 수익을 얻게 합니다.</p>
                         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                         <ins class="adsbygoogle" style="display:inline-block;width:320px;height:50px" data-ad-client="ca-pub-1928909150426881" data-ad-slot="2010254976"></ins>
@@ -63,5 +77,6 @@
     </div>
 </section>
 <script src="assets/timer.js"></script>
+<script src="assets/index.js"></script>
 </body>
 </html>

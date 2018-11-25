@@ -89,38 +89,24 @@ a {
     width: 30vw;
     height: 2.5vh;
     padding: 20px;
+    padding-left: 60px;
     background-color: rgba(256, 256, 256, 0.2);
     border-radius: 15px;
-    border-color: rgba(256, 256, 256, 0.8);
+    border-color: rgba(256, 256, 256, 0);
     color: #fff;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
     transition: .5s ease;
     position: relative;
 }
-.search select {
+.select-provider {
     position: absolute;
-    width: 7vh;
-    height: 7vh;
-    padding: 0;
-    border: 0;
     top: 0;
     left: 0;
-    font-size: 2em;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-stretch: expanded;
-    text-align: center;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    color: #fff;
-    font-weight: 800;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0);
-}
-
-select::-ms-expand {
-    display: none;
+    width: 2.5vh;
+    height: 2.5vh;
+    margin: 2px;
+    padding: 20px;
 }
 .search .input:hover, .search .input:focus {
     border-color: rgba(256, 256, 256, 1);
@@ -130,6 +116,43 @@ select::-ms-expand {
 }
 .search .input:hover::placeholder, .search .input:focus::placeholder {
     color: rgb(30, 30, 30);
+}
+.icon {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.icon-google {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODggNTEyIj48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNDg4IDI2MS44QzQ4OCA0MDMuMyAzOTEuMSA1MDQgMjQ4IDUwNCAxMTAuOCA1MDQgMCAzOTMuMiAwIDI1NlMxMTAuOCA4IDI0OCA4YzY2LjggMCAxMjMgMjQuNSAxNjYuMyA2NC45bC02Ny41IDY0LjlDMjU4LjUgNTIuNiA5NC4zIDExNi42IDk0LjMgMjU2YzAgODYuNSA2OS4xIDE1Ni42IDE1My43IDE1Ni42IDk4LjIgMCAxMzUtNzAuNCAxNDAuOC0xMDYuOUgyNDh2LTg1LjNoMjM2LjFjMi4zIDEyLjcgMy45IDI0LjkgMy45IDQxLjR6Ii8+PC9zdmc+);
+}
+.icon-naver {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEzLDI3VjIyOS45NzJIOTEuNTRWMTI2LjcwNmw3NC44NDQsMTAzLjI4NUwyNDQsMjI5Ljk3MlYyNy4wMDlIMTY2LjM4NFYxMjguNDg2TDkyLjQ2NCwyNy4wMDlaIi8+PC9zdmc+);
+}
+.dropdown-overlay {
+    position: absolute;
+    background-color: rgba(256, 256, 256, 0.2);
+    border: solid;
+    border-color: #fff;
+    border-radius: 5px;
+    border-width: 1px;
+    z-index: 5;
+}
+.dropdown-object {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.dropdown-object input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.dropdown-icon {
+    width: 20px;
+    height: 20px;
 }
 @media (max-width: 768px) {
     .search .input:hover, .search .input:focus {
