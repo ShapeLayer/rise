@@ -219,7 +219,6 @@ select::-ms-expand {
 /* Footer */
 .footer {
     position: absolute;
-    bottom: 20px;
 }
 .footer ul {
     padding: 0;
@@ -228,7 +227,6 @@ select::-ms-expand {
 .footer li {
     display: inline-block;
 }
-
 .support-overlay {
     background-color: #000;
     padding: 10px;
@@ -238,6 +236,9 @@ select::-ms-expand {
     pointer-events: none;
 }
 @media (min-width: 768px) {
+    .footer {
+        bottom: 20px;
+    }    
     .support-overlay {
         position: absolute;
         width: 30vw;
@@ -248,6 +249,7 @@ select::-ms-expand {
 }
 @media (max-width: 768px) {
     .footer {
+        bottom: 10px;
         font-size: 15px;
     }
     .footer ul {
