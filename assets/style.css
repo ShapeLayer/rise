@@ -58,11 +58,12 @@ a {
         text-align: right;
         margin-right: 10px;
     }
+    .counter {
+        font-size: 30px;
+    }
+
 }
 @media (max-width: 768px) {
-    p {
-        font-size: 16px;
-    }
     .comment {
         font-size: 1em;
         letter-spacing: 0.1em;
@@ -73,7 +74,9 @@ a {
         text-align: right;
         margin-right: 20px;
     }
-}
+    .counter {
+        font-size: 16px;
+    }}
 /* ===== */
 
 /* Search */
