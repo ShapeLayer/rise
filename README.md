@@ -1,6 +1,7 @@
 # rise
 > Prove yourself and RISE
-> - RISE, Riot Music Team
+>
+> _- RISE, Riot Music Team_
 
 ![](./sample.png)
 [See Page on Here](https://rise.ho9.me)
