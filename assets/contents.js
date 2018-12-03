@@ -4,6 +4,10 @@ contents = {
             "content" : "새로운 시작.",
             "original" : "Windows XP K/KN"
         },
+        {
+            "content" : "바라봐 어제와 다른 나의 오늘.",
+            "original" : "WEBSTER B - 이로한"
+        }
     ],
     "D100" : [
         {
@@ -33,6 +37,10 @@ contents = {
         {
             "content" : "긴장하지 말고, 지금처럼만.",
             "original" : ""
+        },
+        {
+            "content" : "두 개의 나의 발로 당당히 걸어가.",
+            "original" : "WEBSTER B - 이로한"
         }
     ],
     "D10" : [
@@ -47,6 +55,10 @@ contents = {
         {
             "content" : "여기까지 왔어, 돌아서지 마.",
             "original" : "Imagine Dragons - Warriors"
+        },
+        {
+            "content" : "마음 단단히 먹어 알아 외롭지만 견뎌 내야 돼.",
+            "original" : "송민호 - 겁"
         }
     ]
 }
