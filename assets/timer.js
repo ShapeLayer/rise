@@ -43,7 +43,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("sat_count").innerHTML = "수능 시작까지 " + days + "일 " + hours + "시간 "
+  document.getElementById("sat_count").innerHTML = "다음 수능 시작까지 " + days + "일 " + hours + "시간 "
   + minutes + "분 " + seconds + "초.";
   if (distance < 0) {
     clearInterval(x);
