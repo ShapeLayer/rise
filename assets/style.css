@@ -192,6 +192,7 @@ a {
         background-size: cover;
         background-position: center center;
         cursor: pointer;
+        font-size: 16px;
     }
     .desktop .google {
         background: url("img/google.png");
@@ -238,7 +239,7 @@ a {
 @media (max-width: 768px) {
     .site-link li { 
         display: block;
-        font-size: 15px;
+        font-size: 18px;
     }    
     .site-link .desktop {
         display: none;
