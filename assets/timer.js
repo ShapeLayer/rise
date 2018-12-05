@@ -22,6 +22,8 @@ if (days > 50) {
   var content_data = contents["D100"][Math.floor(Math.random() * contents["D100"].length)];
 } else if (days > 30){
   var content_data = contents["D50"][Math.floor(Math.random() * contents["D50"].length)];
+} else if (days > 10){
+  var content_data = contents["D30"][Math.floor(Math.random() * contents["D30"].length)];
 } else {
   var content_data = contents["D10"][Math.floor(Math.random() * contents["D10"].length)];
 }
