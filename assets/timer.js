@@ -18,7 +18,9 @@ var now_interval = new Date().getTime()
 var distance = new Date(sat[year]).getTime() - now_interval;
 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 
-if (days > 50) {
+if (days > 340) {
+  var content_data = contents["D300"][Math.floor(Math.random() * contents["D300"].length)];
+} else if (days > 50){
   var content_data = contents["D100"][Math.floor(Math.random() * contents["D100"].length)];
 } else if (days > 30){
   var content_data = contents["D50"][Math.floor(Math.random() * contents["D50"].length)];
