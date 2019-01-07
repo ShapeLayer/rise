@@ -179,14 +179,14 @@ a {
     padding: 0;
 }
 .site-link .phone {
-    width: 40vw;
     text-align: left;
     padding: 20px;
     transition: .5s ease;
 }
 .site-link .phone li {
-    padding: 2.5px;
-    padding-left: 30px;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 7.5px;
 }
 .site-link .phone li:hover {
     background-color: rgba(256, 256, 256, 0.5);
@@ -261,10 +261,12 @@ a {
         display: none;
     }
     .link-icon {
-        width: 13px;
-        height: 13px;
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
         margin: 0;
         margin-right: 4px;
+        vertical-align: text-bottom;
     }
 }
 /* ===== */
