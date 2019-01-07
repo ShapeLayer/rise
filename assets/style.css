@@ -7,6 +7,9 @@
     --dark-color:#253B5E;
     --text-bright-color:#fff;
 }
+*:focus {
+    outline: none;
+}
 body { 
     margin: 0;
     font-family: 'Noto Sans KR', sans-serif;
