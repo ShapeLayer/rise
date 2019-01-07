@@ -19,11 +19,15 @@
         <p id="sat_count" class="counter">수능 카운터 불러오는중</p>
     </div>
     <div class="search search-container">
-        <form action="https://www.google.com/search" method="GET" id="search-provider">
-            <input type="text" class="search input" placeholder="Search..." id="query" name="q">
+        <form action="https://search.naver.com/search.naver" method="GET" id="search-provider">
+            <input type="text" class="search input" placeholder="Search..." id="query" name="query" autocomplete="off">
             <div class="select-provider" onclick="displayOverlay()">
-                <div id="provider-reveal" class="icon"><div class="icon icon-google"></div></div>
+                <div id="provider-reveal" class="icon"><div class="icon icon-naver"></div></div>
             </div>
+            <!--<div class="btn-search">
+                <input type="submit" id="btn-search-input" class="btn-search-input" style="display:none;">
+                <label for="btn-search-input"><i class="fas fa-search"></i></label>
+            </div>-->
         </form>
         <div class="dropdown-overlay" id="dropdown-overlay" style="opacity: 0;">
             <label class="dropdown-object" onClick="checkRadioBtn()">

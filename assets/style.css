@@ -102,17 +102,24 @@ a {
     transition: .5s ease;
     position: relative;
 }
-.select-provider {
+.select-provider, .btn-search {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 2.5vh;
     height: 2.5vh;
     margin: 2px;
     padding: 20px;
-    background-color: rgba(256, 256, 256, 0.2);
     border-radius: 13px;
+}
+.select-provider {
+    top: 0;
+    left: 0;
+    background-color: rgba(256, 256, 256, 0.2);
     transition: .5s ease;
+}
+.btn-search {
+    top: 0;
+    left: 100%;
+    transform-origin: top right;
 }
 .select-provider:hover {
     background-color: rgba(256, 256, 256, 0.5);
