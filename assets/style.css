@@ -29,7 +29,6 @@ a {
     justify-content: center;
     height: 100vh;
     min-height: 450px;
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(img/background1.jpg);
     background-position: center;
     background-size: cover;
     color: #ffffff;
@@ -284,13 +283,24 @@ a {
 /* Footer */
 .footer {
     position: absolute;
+    bottom: 40px;
+    left: 40px;
+    text-align: left;
+    font-size: 14px;
 }
-.footer ul {
-    padding: 0;
-    list-style: none;
+.footer p {
+    margin: 0;
+    transition: .5s ease;
 }
-.footer li {
-    display: inline-block;
+.footer .name {
+    font-size: 16px;
+    color: rgba(256, 256, 256, 0.7);
+}
+.footer .by {
+    color: rgba(256, 256, 256, 0.5);
+}
+.footer p:hover, .footer p:focus {
+    color: rgba(256, 256, 256, 1)
 }
 .support-overlay {
     background-color: #000;
@@ -316,9 +326,6 @@ a {
     .footer {
         bottom: 10px;
         font-size: 15px;
-    }
-    .footer ul {
-        margin: 10px;
     }
     .support-overlay {
         position: fixed;
