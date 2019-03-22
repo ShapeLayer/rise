@@ -118,7 +118,7 @@ a {
 }
 .btn-search {
     top: 0;
-    left: 100%;
+    left: calc(100% - 24.219px * 3);
     transform-origin: top right;
 }
 .select-provider:hover {
