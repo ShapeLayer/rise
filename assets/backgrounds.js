@@ -15,7 +15,7 @@ backgrounds = [
     },
     {
         "name" : "이화여자대학교",
-        "author" : "달코미(달코미의 스윗 라이프)",
+        "author" : "달코미",
         "license" : {
             "name" : "",
             "url" : "https://blog.naver.com/dalcomi_sweety/220687988363"
@@ -28,7 +28,7 @@ backgrounds = [
     },
     {
         "name" : "이화여자대학교",
-        "author" : "달코미(달코미의 스윗 라이프)",
+        "author" : "달코미",
         "license" : {
             "name" : "",
             "url" : "https://blog.naver.com/dalcomi_sweety/220687988363"
