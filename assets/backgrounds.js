@@ -40,6 +40,19 @@ backgrounds = [
         }
     },
     {
+        "name" : "연세대학교 언더우드관",
+        "author" : "Thinkinglex",
+        "license" : {
+            "name" : "Public Domain",
+            "url" : "https://en.wikipedia.org/wiki/Public_domain"
+        },
+        "url" : "Underwood_hall.jpg",
+        "origin" : {
+            "source" : "https://commons.wikimedia.org/wiki/File:Underwood_hall.jpg",
+            "cdn" : "https://upload.wikimedia.org/wikipedia/commons/b/bb/Underwood_hall.jpg"
+        }
+    },
+    {
         "name" : "Brown Wooden Bench with Brown Dried Leaves",
         "author" : "Zino Bang",
         "license" : {
