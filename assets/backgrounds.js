@@ -14,6 +14,32 @@ backgrounds = [
         }
     },
     {
+        "name" : "이화여자대학교",
+        "author" : "달코미(달코미의 스윗 라이프)",
+        "license" : {
+            "name" : "",
+            "url" : "https://blog.naver.com/dalcomi_sweety/220687988363"
+        },
+        "url" : "P20160405_161807696_8E6018ED-E7C6-4D82-B2B8-6E7EBEA919E9.jpg",
+        "origin" : {
+            "source" : "https://blog.naver.com/dalcomi_sweety/220687988363",
+            "cdn" : "https://postfiles.pstatic.net/20160419_284/dalcomi_sweety_1461069751476uBMj9_JPEG/P20160405_161807696_8E6018ED-E7C6-4D82-B2B8-6E7EBEA919E9.JPG?type=w966"
+        }
+    },
+    {
+        "name" : "이화여자대학교",
+        "author" : "달코미(달코미의 스윗 라이프)",
+        "license" : {
+            "name" : "",
+            "url" : "https://blog.naver.com/dalcomi_sweety/220687988363"
+        },
+        "url" : "P20160405_162959334_8C2F1E42-C5A3-47F6-ABB0-6EAD0045CB62.jpg",
+        "origin" : {
+            "source" : "https://blog.naver.com/dalcomi_sweety/220687988363",
+            "cdn" : "https://postfiles.pstatic.net/20160419_57/dalcomi_sweety_1461072355194CwW4v_JPEG/P20160405_162959334_8C2F1E42-C5A3-47F6-ABB0-6EAD0045CB62.JPG?type=w966"
+        }
+    },
+    {
         "name" : "Brown Wooden Bench with Brown Dried Leaves",
         "author" : "Zino Bang",
         "license" : {
