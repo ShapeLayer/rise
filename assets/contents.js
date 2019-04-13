@@ -11,6 +11,18 @@ contents = {
         {
             'content' : '그대 오늘도 잘해냈어요',
             'original' : '최한솔 - 그대 오늘도 잘해냈어요'
+        },
+        {
+            'content' : '있는 그대로 지금 느낌 그대로 내게 널 보여줘',
+            'original' : 'IZ*ONE - 비올레타'
+        },
+        {
+            'content' : '파란 하늘 끝까지 올라가 보자 높이',
+            'original' : 'IZ*ONE - 하늘 위로'
+        },
+        {
+            'content' : '하늘 위로 날아올라',
+            'content' : 'IZ*ONE - 하늘 위로'
         }
     ],
     'D300' : [
@@ -39,6 +51,10 @@ contents = {
         {
             'content' : '두꺼운 땅껍질 뚫고 나오는 아주 작은 힘',
             'original' : '남낙현 - 봄이 오는 소리 (2019년 3월 모의고사)'
+        },
+        {
+            'content' : '저 넓은 세상을 네 눈앞에 그려봐',
+            'original' : 'IZ*ONE - 비올레타'
         }
     ],
     'D50' : [
@@ -53,6 +69,10 @@ contents = {
         {
             'content' : '힘을내 여기까지 왔잖아',
             'original' : '박효신 - 숨'
+        },
+        {
+            'content' : '언제나 빛날 수 있게',
+            'original' : 'IZ*ONE - La Vie en Rose'
         }
     ],
     'D30' : [
