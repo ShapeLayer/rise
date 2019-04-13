@@ -22,7 +22,7 @@ contents = {
         },
         {
             'content' : '하늘 위로 날아올라',
-            'content' : 'IZ*ONE - 하늘 위로'
+            'original' : 'IZ*ONE - 하늘 위로'
         }
     ],
     'D300' : [
