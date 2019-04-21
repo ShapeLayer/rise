@@ -268,7 +268,6 @@ a {
 .footer {
     position: absolute;
     bottom: 40px;
-    left: 40px;
     text-align: left;
     font-size: 14px;
 }
@@ -285,6 +284,15 @@ a {
 }
 .footer p:hover, .footer p:focus {
     color: rgba(256, 256, 256, 1)
+}
+.right {
+    right: 40px;
+}
+.left {
+    left: 40px;
+}
+.icon-circle-solid {
+    font-size: 15px;
 }
 .support-overlay {
     background-color: #000;

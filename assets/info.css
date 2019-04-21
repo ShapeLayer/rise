@@ -1,0 +1,39 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    padding-top: 120px;
+}
+a {
+    color: #383838;
+    text-decoration: none;
+    transition: .5s ease;
+}
+a:hover, a:focus {
+    color: #181818
+}
+
+.bg-color {
+    background-color: #fff;
+}
+
+.navbar-custom {
+    margin: auto;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+.copyright {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
