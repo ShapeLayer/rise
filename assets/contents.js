@@ -73,6 +73,10 @@ contents = {
         {
             'content' : '언제나 빛날 수 있게',
             'original' : 'IZ*ONE - La Vie en Rose'
+        },
+        {
+            'content' : '넌 잘하고 있어, 헷갈릴때면 여태 그랬던 것처럼 그냥 Go',
+            'original' : '송민호 - 겁'
         }
     ],
     'D30' : [
